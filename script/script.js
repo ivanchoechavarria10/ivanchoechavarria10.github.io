@@ -1,3 +1,10 @@
+/*==============twntytwenty=========================*/
+$(function(){
+    $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+    $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
+  });
+
+  
 /*==============Scroll section active link =========================*/
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
@@ -61,3 +68,4 @@ const typed = new Typed ('.multiple-text', {
     backDelay: 1000,
     loop: true
 });
+
